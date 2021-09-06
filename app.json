@@ -1,0 +1,24 @@
+{
+  "name": "SangMeta Info Bot",
+  "description": "A simple Telegram Bot Look Like SangMeta ",
+  "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
+  "keywords": [
+    "Sangmetainfo_bot",
+    "Sangmata Bot"
+  ],
+  "repository": "https://github.com/aviskumar/sangmata/",
+  "env": {
+    "HEROKU_APP_NAME": {
+      "description": "give your heroku name",
+      "value": ""
+    },
+    "OWNER": {
+      "description": "1935344311",
+      "value": "1935344311"
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token",
+      "value": ""
+    }
+  }
+}
