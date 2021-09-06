@@ -197,7 +197,7 @@ updater.start_webhook(listen="0.0.0.0",
 
                       url_path=TOKEN,
 
-                      webhook_url="https://sangmata-production.up.railway.app" + TOKEN)
+                      webhook_url="https://sangmata-production.up.railway.app/" + TOKEN)
 
 updater.idle()
 
