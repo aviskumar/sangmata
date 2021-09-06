@@ -187,11 +187,11 @@ dispatcher.add_handler(MessageHandler(Filters.chat_type.private,start))
 dispatcher.add_error_handler(error)
 
 
-updater.start_webhook(listen="0.0.0.0",
+updater.start_webhook(listen="35.230.85.45",
                           port=int(PORT),
                           url_path=TOKEN)
 updater.bot.setWebhook('https://sangmata-production.up.railway.app/' + TOKEN)
-updater.start_webhook(listen="0.0.0.0",
+updater.start_webhook(listen="35.230.85.45",
 
                       port=PORT,
 
